@@ -6,6 +6,46 @@ body {
     margin: 0;
     padding: 0;
 }
+.header{
+    
+    height: 7rem;
+    margin-bottom: 4rem;
+    color: #000;
+    background-color: rgba(95, 76, 76, 0.941); /* Half-transparent background */
+
+}
+.header{
+    position: sticky;
+    top:0%;
+    width: 100%;
+
+}
+.header{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.instagram{
+    padding-left: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.instagram a{
+
+    color: #fff;
+    text-decoration: none;
+}
+.email a {
+    
+        
+        color: #fff;
+        text-decoration: none;
+    
+    
+}
 
 .container {
     width: 80%;
