@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #000;
@@ -6,82 +7,75 @@ body {
     margin: 0;
     padding: 0;
 }
-.header{
-    
+
+.header {
     height: 7rem;
     margin-bottom: 4rem;
     color: #000;
-    background-color: rgba(95, 76, 76, 0.941); /* Half-transparent background */
-
-}
-.header{
+    background-color: rgba(95, 76, 76, 0.941);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: sticky;
-    top:0%;
+    top: 0;
     width: 100%;
-
-}
-.header{
     
+}
+
+
+.contact-info {
+    padding-left: 9.5%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    justify-content: space-evenly;
+    gap: 200px;
 }
-.instagram{
-    padding-left: 20%;
-    display: flex;
-    justify-content: space-evenly;
-}
-.instagram a{
 
+.contact-info a {
     color: #fff;
     text-decoration: none;
 }
-.email a {
-    
-        
-        color: #fff;
-        text-decoration: none;
-    
-    
+
+.instagram, .email {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
+
 .container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     padding: 20px;
 }
 
 .profile-header {
-    
     text-align: center;
     margin-bottom: 40px;
 }
 
 .profile-photo {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     border: 3px solid #ffcc00;
 }
 
 .name {
     font-family: "Playwrite IT Moderna", cursive;
-    font-size: 3rem;
+    font-size: 2rem;
     color: rgb(73, 71, 69);
 }
 
 .sections {
     display: flex;
-    justify-content: space-between;
-    gap: 20px; /* Added gap between sections */
-    margin-top: 20px;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .section {
-    width: 30%;
-    background-color: rgba(26, 26, 26, 0.5); /* Half-transparent background */
+    width: 100%;
+    background-color: rgba(26, 26, 26, 0.5);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
@@ -109,4 +103,30 @@ body {
 
 .section a:hover {
     text-decoration: underline;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+    
+    .profile-photo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .name {
+        font-size: 1.5rem;
+    }
+
+    .sections {
+        flex-direction: column;
+    }
+
+    .section {
+        width: 100%;
+    }
 }
