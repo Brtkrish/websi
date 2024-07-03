@@ -37,7 +37,9 @@ p {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid columns */
     gap: 10px; /* Gap between images */
 }
-
+.gallery img:hover {
+    transform: scale(1.4);
+}
 .gallery img {
     width: 100%;
     height: 150px; /* Common height for images */
@@ -46,6 +48,4 @@ p {
     transition: transform 0.3s;
 }
 
-.gallery img:hover {
-    transform: scale(1.1);
-}
+
