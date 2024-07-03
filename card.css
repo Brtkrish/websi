@@ -13,8 +13,9 @@ margin: 0%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 700;
+    font-weight: 800;
     font-family: "Playwrite IT Moderna", cursive;
+    font-size: larger;
 
     
 }
