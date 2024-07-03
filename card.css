@@ -9,14 +9,15 @@ margin: 0%;
     box-sizing: border-box;
 }
 .header{
+    color: rgb(69, 57, 57);
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: 800;
     font-family: "Playwrite IT Moderna", cursive;
-    font-size: larger;
-
+    font-size: 25px;
+    text-decoration:solid;
     
 }
 .container{
@@ -27,7 +28,7 @@ margin: 0%;
 }
 .cardf{
 
-background-color: rgba(254, 181, 33, 0.682);
+background-color: rgba(215, 189, 152, 0.647);
 flex: 2%;
 border: none;
     
@@ -61,5 +62,6 @@ border: none;
     width:150px;
     border-radius: 80% ;
     border-style: solid;
-    border-color: lightgrey;
+    border-width: 4px;
+    border-color: rgb(125, 97, 51);
 }
