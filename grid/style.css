@@ -1,0 +1,37 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+
+body{
+
+    display: grid;
+
+    grid-template-rows: repeat(4,auto);
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr)) ;
+    grid-template-areas: 
+    'a b b b'
+    'a c c c'
+    'a c c c'
+    'a d d d';
+.item1{ grid-area: a;}
+.item2{
+    grid-area: b;
+    background-color: blue;
+}
+.item3{
+    grid-area: c;
+    background-color: antiquewhite;
+}
+.item4{
+    grid-area: d;
+    background-color: aliceblue;
+}
+   
+}
+body div{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

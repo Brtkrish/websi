@@ -1,0 +1,10 @@
+.cardr{
+    flex: 60%;
+    width: 450px;
+    margin-top: 0%;
+    
+    padding-left: 10px;
+    padding-top: 20px;
+    text-align: center;
+    padding: 0%;
+}
