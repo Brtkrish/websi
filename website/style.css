@@ -6,14 +6,16 @@ body {
     height: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 100px 700px 500px 100px;
+    grid-template-rows: 100px 700px 500px 400px 100px;
     grid-template-areas:
         'a a a a'
         'b b c c'
+        't t t t'
         'd d d d'
         'f f f f';
         color: white;
         background-color: black;
+        
 }
 h2{ 
     font-size: 40px;
@@ -27,6 +29,7 @@ h2{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    font-family: sans-serif;
 }
 
 .options {
@@ -41,7 +44,7 @@ h2{
 }
 
 .logo {
-    padding-left: 20px;
+    margin-left: 20px;
 }
 
 .upleft {
@@ -63,6 +66,7 @@ h2{
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    margin-top: 0px;
 }
 
 .lowleft, .lowright {
@@ -71,6 +75,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: sans-serif;
 }
 
 .detail-box {
@@ -79,8 +84,17 @@ h2{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: rgb(41, 48, 53);
     height: 100%;
-    width: auto;
+    width: 100%;
     text-align: center;
+}
+.center{
+    grid-row: 3/4;
+    grid-column: 2/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    padding-top: 50%;
 }
 
 .footer {
@@ -100,6 +114,7 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
     }
 .abouth{
     display: flex;
@@ -107,6 +122,8 @@ h2{
     justify-content: center;
     align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 170px;
+    color: rgb(87, 187, 113);
     }
 
 .icon{
@@ -130,4 +147,12 @@ h2{
 .intro{
     padding-top: 2%;
     margin: 0;
+}
+.logo{
+    background-color: aqua;
+    border-radius: 50%;
+    padding: 5px;
+    
+    
+    
 }

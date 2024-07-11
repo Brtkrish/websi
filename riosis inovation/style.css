@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 300px 550px 550px 550px 550px 200px 400px 300px ;
+
+    }
+.navbar{
+    grid-row: 1 / 2;
+    grid-column: 1 / 4;
+    background-color: rgb(134, 120, 120);
+}
+.main{
+    grid-row: 2/3;
+    grid-column: 1/4;
+}
+.rio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: inter;
+    font-size: 20px;
+   
+    text-align: center;
+    
+    background-color: rgb(245, 245, 245);
+    height: 100%;
+    width: 100%;
+}
+.about{
+    grid-column: 1/4;
+    grid-row: 3/4;
+    display: flex;
+}
+.ableft{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.what{
+    display: flex;
+ 
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+
+    font-size: 34px;
+    grid-column: 1/3;
+    text-align: center;
+    
+    background-color: rgb(255, 255, 255);
+    height: 50%;
+    width: 50%;
+    padding-top: 5%;
+padding-bottom: -10px;
+margin-bottom: 0px;
+}
+.aboute{
+    display: flex;
+ 
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+
+    font-size: 34px;
+    grid-column: 1/3;
+    text-align: center;
+    
+    background-color: rgb(191, 128, 128);
+    height: 70%;
+    width: 50%;
+}
+
+.products{
+    grid-column: 1/4;
+    grid-row: 4/5;
+    display: flex;
+    background-color:rgb(30, 30, 30);
+    flex-direction: row;
+
+
+}
+.pleft{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+ 
+    justify-content: center;
+    align-items: center;
+    font-family: inter;
+
+    font-size: 15px;
+    grid-column: 1/3;
+    text-align: center;
+    color: white;
+    
+    height: 100%;
+    width: 50%;
+
+}
+.buttonr{
+    display: flex;
+ flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+
+    font-size: 30px;
+ 
+    text-align: center;
+    width: 15%;
+    background-color: rgb(239, 76, 73);
+    border: 10px blue;
+    
+  margin-top: 15%;
+    padding: 1%;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+
+.pro{
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 30%;
+    height: 50%;
+    border-radius: 10%;
+
+
+    
+}
+.case{
+    grid-column: 1/4;
+    grid-row: 5/6;
+    display: flex;
+    flex-direction: column;
+}
+.ctop{
+   
+    display: flex;
+       justify-content: center;
+       align-items: center;
+       font-family: sans-serif;
+       font-size: 30px;
+       width: 100%;
+       height: 25%;
+   
+    
+       background-color: rgb(255, 255, 255);
+    
+}
+.cbottom{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.bl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2%;
+    align-items: center;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 18px;
+
+}
+.bm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 18px;
+    gap: 2%;
+}
+.br{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2%;
+    align-items: center;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 18px;
+
+
+}
+.services{
+    grid-column: 1/4;
+    grid-row: 6/7;
+    display: flex;
+    background-color: rgb(222, 93, 93);
+
+    flex-direction: row;
+
+}
+.sright{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+ 
+    justify-content: center;
+    align-items: center;
+    font-family: inter;
+
+    font-size: 15px;
+    grid-column: 1/3;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+    height: 100%;
+    width: 50%;
+
+}
+.buttonss{
+    display: flex;
+ flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+
+    font-size: 30px;
+ 
+    text-align: center;
+    width: 15%;
+    background-color: rgb(0, 0, 0);
+    border: 10px blue;
+    
+  margin-top: 15%;
+    padding: 1%;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+.review{
+    grid-column: 1/4;
+    grid-row: 7/8;
+}
+.team{
+    grid-column: 1/4;
+    grid-row: 8/9;
+}
+.footer{
+    grid-column: 1/4;
+    grid-row: 9/10;
+}
