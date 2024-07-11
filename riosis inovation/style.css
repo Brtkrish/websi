@@ -249,7 +249,7 @@ margin-bottom: 0px;
     height: 100%;
     margin: 0;
     background:rgb(77, 70, 70);
-    font-family: Arial, sans-serif;
+    font-family: inter, sans-serif;
     color: rgb(0, 0, 0);
     width: 100%;
     text-align: center;
@@ -296,7 +296,7 @@ margin-bottom: 0px;
     grid-row: 8/9;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
     background: #f0f0f0;
     display: flex;
     justify-content: center;
@@ -364,8 +364,9 @@ font-family: sans-serif;
 font-size: 34px;
 
 text-align: center;
+background-color: rgb(222, 93, 93);
 
-background-color: rgb(255, 255, 255);
+
 height: 100%;
 width: 100%;
 }
@@ -383,7 +384,7 @@ font-size: 34px;
 
 text-align: center;
 
-background-color: rgb(255, 255, 255);
+background-color: rgb(115, 103, 103);
 height: 100%;
 width: 100%;
 }
