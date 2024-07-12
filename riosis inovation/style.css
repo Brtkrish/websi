@@ -13,7 +13,7 @@ body{
 .navbar{
     grid-row: 1 / 2;
     grid-column: 1 / 4;
-    background-color: rgb(134, 120, 120);
+    background-color: rgb(17, 17, 17);
 }
 .main{
     grid-row: 2/3;
@@ -24,13 +24,14 @@ body{
     justify-content: center;
     align-items: center;
     font-family: inter;
-    font-size: 20px;
+    font-size: 25px;
    
     text-align: center;
     
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(227, 111, 111);
     height: 100%;
     width: 100%;
+   
 }
 .about{
     grid-column: 1/4;
