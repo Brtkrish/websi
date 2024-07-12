@@ -2,17 +2,15 @@
     margin: 0;
     padding: 0;
     font-family: inter;
-    
+    box-sizing: border-box;
 }
-body{
-    height: 100%;
+body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 300px 550px 550px 550px 550px 300px 500px 600px 300px ;
-
-width: 100%;
-
-    }
+    grid-template-rows: 100px 300px 550px 550px 550px 550px 300px 500px 600px 300px;
+    margin: 0; /* Remove default body margin */
+    overflow-x: hidden; /* Hide horizontal overflow */
+}
     /* nav */
 .navbar{
     grid-row: 1 / 2;
@@ -71,6 +69,7 @@ width: 100%;
     grid-row: 3/4;
     display: flex;
     justify-content: space-around;
+    
 }
 .ableft{
     display: flex;
@@ -386,6 +385,7 @@ button.prev:hover, button.next:hover {
     width: 60%;
     box-shadow: 0 4px 8px rgba(23, 19, 19, 0.258);
     text-align: center;
+    
 }
 
 .profile-picture img {
