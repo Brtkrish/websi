@@ -37,7 +37,7 @@ body {
 
 }
 .btn{
-    width: 20px;
+    width: auto;
 }
 
 
@@ -367,7 +367,7 @@ button.prev:hover, button.next:hover {
     grid-column: 1/4;
     grid-row: 7/8;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: 100%;
     margin: 0;
@@ -379,13 +379,14 @@ button.prev:hover, button.next:hover {
   
 }
 .review-card {
+
     background: rgba(255, 255, 255, 0.893);
     border-radius: 10px;
     padding: 20px;
     width: 60%;
     box-shadow: 0 4px 8px rgba(23, 19, 19, 0.258);
     text-align: center;
-    
+    margin-left: 15%;
 }
 
 .profile-picture img {
@@ -772,6 +773,7 @@ padding: 40px ;
     .review {
         flex-direction: column;
         align-items: center;
+    
     }
 
     .review-card {
@@ -779,6 +781,8 @@ padding: 40px ;
         margin-bottom: 20px;
         margin-top: 20px;
         justify-content: center;
+       margin-left: 20px;
+
         
 
     }
