@@ -28,7 +28,7 @@ body{
    
     text-align: center;
     
-    background-color: rgb(227, 111, 111);
+    background-color: rgb(255, 136, 136);
     height: 100%;
     width: 100%;
    
@@ -82,7 +82,7 @@ margin-bottom: 0px;
 .news{
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    margin-left: 7%;
+    margin-left: 12%;
     padding: 0;
     width: 50%;
     margin-top: -5%;
