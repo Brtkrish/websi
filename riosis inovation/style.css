@@ -662,6 +662,9 @@ padding: 40px ;
 }
 
 
+
+
+
 /* Media Queries */
 @media (max-width: 768px) {
     body {
@@ -671,6 +674,7 @@ padding: 40px ;
         grid-template-columns: 1fr;
         grid-template-rows: auto;
     }
+  
 
     .navbar {
         flex-direction: column;
@@ -685,6 +689,9 @@ padding: 40px ;
     .btn {
         width: auto;
         margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        
     }
 
     .main, .about, .products, .case, .services, .review, .team, .contact {
@@ -716,6 +723,15 @@ padding: 40px ;
     .products, .services {
         flex-direction: column;
         align-items: center;
+        padding-bottom: 20px;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .imgp{
+        text-align: center;
+    }
+    .ctop{
+        text-align: center;
     }
 
     .pleft, .pright, .sleft, .sright {
@@ -761,6 +777,10 @@ padding: 40px ;
     .review-card {
         width: 90%;
         margin-bottom: 20px;
+        margin-top: 20px;
+        justify-content: center;
+        
+
     }
 
     .team {
@@ -790,6 +810,11 @@ padding: 40px ;
     .contactl, .contact-form-container {
         width: 90%;
         margin-bottom: 20px;
+        justify-content: center;
+       
+    }
+    .contact-form-container{
+        margin-right: 30px;
     }
 
     .footer {
