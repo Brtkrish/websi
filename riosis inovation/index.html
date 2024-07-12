@@ -14,9 +14,40 @@
         <div class="rio">
             <div><h1>RIOSIS</h1>INNOVATIONS
     </h1></div></div></div>
+
+    <!-- about -->
     <div class="about">
      <div class="ableft">  <div class="what">WHAT IS RIOSIS INNOVATIONS</div>  <div class="aboute">body</div></div>
-    <div class="abright"><div class="news"></div></div>
+    <div class="abright"><div class="news">
+        <div class="slider-container">
+            <div class="slider" id="slider">
+                <div class="slide">
+                    <img src="../images/a1.jpg" alt="Achievement 1">
+                    <h2>Achievement 1</h2>
+                    <p>Successfully launched our flagship product with outstanding customer feedback.</p>
+                </div>
+                <div class="slide">
+                    <img src="../images/a2.png" alt="Achievement 2">
+                    <h2>Achievement 2</h2>
+                    <p>Reached over 1 million users worldwide, expanding our market reach significantly.</p>
+                </div>
+                <div class="slide">
+                    <img src="../images/a3.jpg" alt="Achievement 3">
+                    <h2>Achievement 3</h2>
+                    <p>Awarded 'Best Innovative Product of the Year' at the industry-leading awards ceremony.</p>
+                </div>
+                <div class="slide">
+                    <img src="../images/a4.jpg" alt="Achievement 4">
+                    <h2>Achievement 4</h2>
+                    <p>Achieved a 95% customer satisfaction rate through our exceptional support services.</p>
+                </div>
+            </div>
+            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+    
+        <script src="script.js"></script>
+    </div></div>
 </div>
 <!-- products -->
     <div class="products">
@@ -171,7 +202,39 @@
 
         
     </div>
-    <div class="contact">contact us</div>
+    <!-- contact section -->
+    <div class="contact">
+           <div class="contactl">
+            <h1>CONTACT US</h1>
+           </div>
+         
+        <div class="contact-form-container">
+            <form class="contact-form" action="/submit-form" method="post">
+                
+                <div class="form-group">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
     <div class="footer">footer</div>
 </body>
 </html>
