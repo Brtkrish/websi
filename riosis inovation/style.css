@@ -2,12 +2,15 @@
     margin: 0;
     padding: 0;
     font-family: inter;
+    
 }
 body{
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 100px 300px 550px 550px 550px 550px 300px 500px 600px 300px ;
+
+width: 100%;
 
     }
     /* nav */
@@ -45,6 +48,7 @@ body{
 .main{
     grid-row: 2/3;
     grid-column: 1/4;
+    
 }
 .rio{
     display: flex;
@@ -58,6 +62,7 @@ body{
     background-color: rgb(255, 136, 136);
     height: 100%;
     width: 100%;
+    box-sizing: border-box;
    
 }
 /* about */
@@ -657,27 +662,39 @@ padding: 40px ;
 }
 
 
-/* Mobile styles */
+/* Media Queries */
 @media (max-width: 768px) {
     body {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
     }
 
     .navbar {
         flex-direction: column;
+        height: auto;
     }
 
     .linkss {
         flex-direction: column;
-        gap: 20px;
+        gap: 5px;
     }
 
     .btn {
-        width: 50%;
+        width: auto;
+        margin-top: 10px;
     }
 
-    .main {
+    .main, .about, .products, .case, .services, .review, .team, .contact {
+        grid-column: 1 / 2;
+        width: 100%;
+    }
+
+    .rio {
+        font-size: 20px;
+        height: auto;
         padding: 20px;
     }
 
@@ -688,47 +705,52 @@ padding: 40px ;
 
     .ableft, .abright {
         width: 90%;
+        margin: 0;
     }
 
-    .slider-container {
+    .what, .aboute, .news {
         width: 100%;
+        margin-left: 0;
     }
 
-    .products {
+    .products, .services {
         flex-direction: column;
         align-items: center;
     }
 
-    .pleft, .pright {
-        width: 90%;
-        text-align: center;
+    .pleft, .pright, .sleft, .sright {
+        width: 100%;
+        margin: 0;
+    }
+
+    .pleft {
+        gap: 20px;
+    }
+
+    .pro {
+        width: 80%;
+        margin: 10px 0;
     }
 
     .case {
         flex-direction: column;
+        align-items: center;
     }
 
     .ctop {
-        text-align: center;
+        font-size: 24px;
+        height: auto;
+        padding: 20px;
     }
 
     .cbottom {
         flex-direction: column;
+        align-items: center;
     }
 
     .bl, .bm, .br {
         width: 90%;
-        margin: 10px 0;
-    }
-
-    .services {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .sright {
-        width: 90%;
-        text-align: center;
+        margin-bottom: 20px;
     }
 
     .review {
@@ -738,12 +760,16 @@ padding: 40px ;
 
     .review-card {
         width: 90%;
-        margin: 20px 0;
+        margin-bottom: 20px;
     }
 
     .team {
         flex-direction: column;
         align-items: center;
+    }
+
+    .members-section {
+        width: 90%;
     }
 
     .members-container {
@@ -753,7 +779,7 @@ padding: 40px ;
 
     .member-card {
         width: 90%;
-        margin: 20px 0;
+        margin-bottom: 20px;
     }
 
     .contact {
@@ -763,18 +789,29 @@ padding: 40px ;
 
     .contactl, .contact-form-container {
         width: 90%;
-        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
     }
 
     .footer-content {
         flex-direction: column;
         align-items: center;
+        width: 90%;
     }
 
     .footer-section {
-        width: 90%;
+        width: 100%;
         text-align: center;
-        margin: 10px 0;
+        margin-bottom: 20px;
+    }
+
+    .footer-bottom {
+        text-align: center;
+        width: 100%;
+        padding: 10px;
     }
 }
-
