@@ -9,6 +9,7 @@
 <body>
     <!-- navbar -->
     <div class="navbar">
+        <div class="dropdown-icon">&#9776;</div> <!-- Add this line -->
         <div class="logo">
             <img src="../images/logo.jpg" alt="logo" width="100px">
         </div>
@@ -16,16 +17,13 @@
             <ul class="linkss">
                 <li>Home</li>
                 <li>About</li>
-                <li>products</li>
-                <li>services</li>
-               
+                <li>Products</li>
+                <li>Services</li>
             </ul>
-
         </nav>
-        <button class="btn" ">contact us</button>
-
-
+        <button class="btn">Contact Us</button>
     </div>
+
     <!-- main -->
     <div class="main">
         <div class="rio">
@@ -285,5 +283,11 @@
         <p>&copy; 2024 Riosis Innovations. All Rights Reserved.</p>
     </div>
 </div>
+<script>
+    document.querySelector('.dropdown-icon').addEventListener('click', function() {
+        document.querySelector('.navbar').classList.toggle('active');
+    });
+    </script>
+    
 </body>
 </html>

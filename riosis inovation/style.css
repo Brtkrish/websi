@@ -23,12 +23,14 @@ body {
     align-items: center;
     justify-content: space-around;
     color: white;
+   
 }
 .logo img{
     border-radius: 10px;
 }
 .linkss
 {
+    
     display: flex;
     flex-direction: row;
     list-style : none ;
@@ -39,7 +41,9 @@ body {
 .btn{
     width: auto;
 }
-
+.dropdown-icon {
+    display: none;
+}
 
 
 /* riosis */
@@ -678,20 +682,65 @@ padding: 40px ;
   
 
     .navbar {
-        flex-direction: column;
-        height: auto;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
     }
 
     .linkss {
+        display: none;
         flex-direction: column;
-        gap: 5px;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: rgb(53, 61, 75);
+        margin: 0;
+        padding: 0;
+    }
+    .linkss ul {
+        list-style: none;
+        padding: 0;
+        margin-top: -61px;
     }
 
+    .linkss li {
+        padding: 5px;
+        text-align: center;
+        border-top: 1px solid #fff;
+    }
+
+
+    .dropdown-icon {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+        margin-left: 2%;
+    }
+    .logo {
+        order: 1;
+        margin-left: 10%;
+        margin-bottom: 0;
+    }
+
+    .dropdown-icon {
+        order: 0;
+    }
+
+    .btn {
+        order: 2;
+    }
+
+    .navbar.active .linkss {
+        display: flex;
+    }
     .btn {
         width: auto;
         margin-top: 10px;
         margin-bottom: 10px;
         text-align: center;
+        margin-right: 2%;
         
     }
 
