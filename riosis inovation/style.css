@@ -720,25 +720,32 @@ padding: 40px ;
     }
     .logo {
         order: 1;
-        margin-left: 10%;
+        margin-left: 4%;
         margin-bottom: 0;
         
     }
     .logoim{
         width: 70px;
+        
     
     }
 
     .dropdown-icon {
-        order: 0;
+        display: block;
+        order: 3;
     }
 
     .btn {
         order: 2;
+        margin-left: 50%;
     }
 
     .navbar.active .linkss {
         display: flex;
+    }
+    .navbar {
+        justify-content: space-between;
+        padding: 0 10px;
     }
     .btn {
         width: 15%;
