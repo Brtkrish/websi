@@ -828,6 +828,7 @@ padding: 40px ;
     .btn {
         order: 2;
         margin-left: 25%;
+    
     }
 
     .navbar.active .linkss {
@@ -838,9 +839,9 @@ padding: 40px ;
         padding: 0 10px;
     }
     .btn {
-        width: 15%;
+        width: 20%;
         height: 10%;
-        font-size: 8px;
+        font-size: 10px;
         margin-top: 10px;
         margin-bottom: 10px;
         text-align: center;
@@ -910,15 +911,18 @@ padding: 40px ;
         margin: 10px 0;
     }
     .buttonr{
-        width: 20%;
+        width: 25%;
         margin-bottom: 5%;
         margin-top: 10px;
+        padding: 1%;
+        
         
     }
     .buttonss{
-        width: 20%;
+        width: 25%;
         margin-bottom: 5%;
         margin-top: 10px;
+        padding: 1%;
     }
 
     .case {
