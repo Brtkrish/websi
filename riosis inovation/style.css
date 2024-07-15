@@ -791,13 +791,15 @@ padding: 40px ;
     .linkss ul {
         list-style: none;
         padding: 0;
-        margin-top: -71px;
+        margin-top: -54px;
+      
     }
 
     .linkss li {
         padding: 5px;
         text-align: center;
         border-top: 1px solid #fff;
+      
     }
 
 
@@ -805,7 +807,7 @@ padding: 40px ;
         display: block;
         font-size: 30px;
         cursor: pointer;
-      
+       
         
     }
     .logo {
@@ -884,7 +886,9 @@ padding: 40px ;
         padding-bottom: 20px;
         justify-content: center;
         padding-top: 20px;
+     
     }
+
     .imgp{
         text-align: center;
     }
@@ -904,6 +908,17 @@ padding: 40px ;
     .pro {
         width: 80%;
         margin: 10px 0;
+    }
+    .buttonr{
+        width: 20%;
+        margin-bottom: 5%;
+        margin-top: 10px;
+        
+    }
+    .buttonss{
+        width: 20%;
+        margin-bottom: 5%;
+        margin-top: 10px;
     }
 
     .case {
@@ -999,5 +1014,10 @@ padding: 40px ;
         text-align: center;
         width: 100%;
         padding: 10px;
+    }
+
+    .contactus{
+        font-size: 40px;
+        margin-top: 5%;
     }
 }
