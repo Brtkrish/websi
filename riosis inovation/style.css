@@ -57,12 +57,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
     height: 100%;
     width: 100%;
     box-sizing: border-box;
     color: white;
+    background-image: url(../images/pexels-andrew-3178786.jpg);
+    background-size: cover; /* Or use 'contain' */
+    background-repeat: no-repeat;
+    background-position: center; /* Optional: centers the image */
+    
 }
+
 
 .rio {
     display: flex;
@@ -196,7 +201,7 @@ margin-bottom: 0px;
     height: auto;
 }
 
-.slider-container {
+.slider-containerr {
     position: relative;
     max-width: 800px;
     margin: 50px auto;
@@ -835,6 +840,7 @@ padding: 40px ;
         grid-column: 1 / 2;
         width: 100%;
     }
+
 
     .rio {
         font-size: 20px;
